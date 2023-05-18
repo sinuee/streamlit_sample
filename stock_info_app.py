@@ -10,6 +10,8 @@ import pandas as pd
 
 st.write('제목입니다')
 
+st.write('hello')
+
 def get_stock_info():
     base_url =  "http://kind.krx.co.kr/corpgeneral/corpList.do"    
     method = "download"
